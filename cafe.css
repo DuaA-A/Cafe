@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #FAF4EC;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;/* x */
+    align-items: center;/* y */
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    background: #F5E6D3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav .logo {
+    color: #5D4037;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 650;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #42375d;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container .text {
+    color: #5D4037;
+    width: 40%;
+    font-size: 25px;
+    font-weight: 550;
+    margin: 40px 30px;
+}
+
+#image1 {
+    position: absolute;
+    top: 150px; /* Adjust distance from the top */
+    right: 60px; /* Adjust distance from the right */
+    width: 200px; /* Adjust size */
+    height: 250px;
+}
+
+#image2 {
+    position: absolute;
+    top: 90px; /* Adjust distance from the top */
+    right: 250px; /* Adjust distance from the right */
+    width: 200px; /* Adjust size */
+    height: 250px;
+}
+
+.popular-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #C6B0E8; /* Light purple */
+    color: #2c2a4a; /* Dark brown text */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded edges */
+    text-decoration: none; /* Removes underline for <a> */
+    font-family: Arial, sans-serif;
+    margin: 100px 340px;
+}
+
+.donut-item {
+    position: absolute;
+    top: 470px; /* Adjust distance from the top */
+    left: 40px; /* Adjust distance from the left */
+    width: 200px; /* Adjust size */
+}
+.donut-item #donut {
+    width: 200px; /* Adjust size */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+#donut:hover {
+    transform: translateY(-10px); /* Moves up by 10px */
+}
+.donut-item p {
+    margin: 10px 50px;
+    font-weight: 540;
+}
+
+
+.coffee-item {
+    position: absolute;
+    top: 460px; /* Adjust distance from the top */
+    right: 50px; /* Adjust distance from the right */
+    width: 200px; /* Adjust size */
+}
+.coffee-item #coffee {
+    width: 250px; /* Adjust size */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+#coffee:hover {
+    transform: translateY(-10px); /* Moves up by 10px */
+}
+.coffee-item p {
+    margin: 10px 80px;
+    font-weight: 540;
+}
+
+.cupcake-item {
+    position: absolute;
+    top: 460px; /* Adjust distance from the top */
+    right: 330px; /* Adjust distance from the right */
+    width: 200px; /* Adjust size */
+}
+.cupcake-item #cupcake {
+    width: 150px; /* Adjust size */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+#cupcake:hover {
+    transform: translateY(-10px); 
+}
+.cupcake-item p {
+    margin: 10px 30px;
+    font-weight: 540;
+}
+
+@media (max-width: 480px) {
+
+}
